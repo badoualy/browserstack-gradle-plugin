@@ -27,5 +27,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/com.android.tools.build/gradle
-    compile group: 'com.android.tools.build', name: 'gradle', version: '2.3.0'
+    implementation 'com.android.tools.build:gradle:3.6.3'
+	implementation 'com.squareup.okhttp3:okhttp:4.5.0'
+    implementation 'org.json:json:20190722'
 }
